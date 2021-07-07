@@ -1,0 +1,23 @@
+@import "../../../variables.scss";
+
+// The header of the component
+.header-component-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 $PADDING;
+}
+
+.header-component-header .header-logoname {
+  font-weight: bolder;
+  text-align: center;
+}
+
+.header-component-header .header-navigation-items {
+  display: flex;
+  align-items: center;
+}
+
+.header-component-header .header-navigation-items a {
+  padding: $PADDING;
+}
